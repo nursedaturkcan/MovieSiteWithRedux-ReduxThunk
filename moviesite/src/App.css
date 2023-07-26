@@ -1,0 +1,60 @@
+
+
+  .movie:hover{
+    cursor: pointer;
+    opacity: 0.4;
+    
+  }
+
+  
+
+  .movie {
+    max-width: 300px;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .header{
+    color: red;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    
+  }
+  .menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .menu li:hover{
+    background-color: red;
+    color: white;
+    scale:1.2;
+    transition: all .3s ease-in;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .logo{
+    background-color: rgb(245, 160, 160);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: red;
+    text-decoration: none !important;
+   
+  }
+  .movie-detail{
+    height: 90vh;
+  }
+  .img-detail{
+    max-height: 750px;
+  }
+  .oyuncu-img{
+    max-width: 200px;
+  }
+  .oyuncu-name{
+    text-align: center;
+  }
